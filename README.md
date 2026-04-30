@@ -1,63 +1,79 @@
 # 🏢 Property Sales Management System
 
-A professional desktop application for managing property sales, client details, payments, and generating reports. Built with **C#**, **.NET WinForms**, and **SQL Server**, this system provides an intuitive interface for real estate agents and property managers.
+A professional desktop-based property sales management application developed using **C#**, **.NET WinForms**, **ADO.NET**, and **SQL Server**.  
+The system is designed to simplify property sales operations by managing client records, payment information, and generating dynamic reports for real estate businesses.
 
 ---
 
-## 📌 Features
+## 🚀 Key Features
 
-- ✅ Add, edit, and delete property sales records
-- 👤 Client information management (name, mobile, etc.)
-- 💰 Payment type and status tracking (Paid / Unpaid)
-- 📅 Sales date selection
-- 🖼️ Client image attachment support
-- 📊 Dynamic sales listing with edit/delete options
-- 📈 Crystal Reports integration for:
-  - Property Information Report
-  - Sales Information Report
-- 🗄️ SQL Server backend with stored procedures and views
-- 🧩 Layered architecture:
-  - Data Access Layer (DAL)
-  - Entities
-  - Repositories
-  - ViewModels
-  - Reports
-  - RPTViewers
+- ✅ Add, update, and delete property sales records  
+- 👤 Manage client information (name, mobile number, address, etc.)  
+- 💰 Track payment methods and payment status (Paid / Unpaid)  
+- 📅 Select and manage sales dates  
+- 🖼 Attach client images  
+- 📊 Display dynamic sales records with edit/delete functionality  
+- 📈 Generate Crystal Reports:
+  - Property Information Report  
+  - Sales Information Report  
+- 🗄 SQL Server integration with:
+  - Stored Procedures  
+  - Views  
+- 🧩 Layered project architecture for maintainability  
 
 ---
 
-## 🖥️ Tech Stack
+## 🛠 Technology Stack
 
-| Technology       | Usage                     |
-|------------------|---------------------------|
-| C#               | Business logic & UI       |
-| .NET WinForms    | Desktop application       |
-| SQL Server       | Database                  |
-| Crystal Reports  | Reporting                 |
-| ADO.NET          | Data access               |
+| Technology | Purpose |
+|-----------|---------|
+| C# | Application logic |
+| .NET WinForms | Desktop UI |
+| SQL Server | Database management |
+| ADO.NET | Data access |
+| Crystal Reports | Reporting |
 
 ---
 
-## 📁 Project Structure
+## 🧱 Project Architecture
+
+The project follows a layered architecture:
+
+- **DAL (Data Access Layer)** → Handles database operations  
+- **Entities** → Domain models  
+- **Repositories** → Business data handling  
+- **ViewModels** → UI data binding  
+- **Reports** → Crystal Reports files  
+- **RPTViewers** → Report display forms  
+
+---
+
+## 📂 Project Structure
+
+```text id="9czvgk"
 PropertySalesManagementSystem/
 │
-├── App.Data/ # Data context and configurations
-├── DAL/ # Data Access Layer (Gateways)
-│ └── SalesGateWay.cs
-├── Entities/ # Domain models
-│ ├── PaymentMethod.cs
-│ ├── Property.cs
-│ └── Sale.cs
-├── Reports/ # Crystal Reports (.rpt)
-│ ├── PropertyInfo.rpt
-│ └── RPTSalesInfo.rpt
-├── Repositories/ # Data repositories
-├── RPTViewers/ # Report viewer forms
-│ └── FrmRptViewer.cs
-├── ViewModels/ # View models for binding
-├── AppConfig/ # Configuration files
-├── Form1.cs # Main form
-├── Program.cs # Application entry point
+├── DAL/
+│   └── SalesGateWay.cs
+│
+├── Entities/
+│   ├── PaymentMethod.cs
+│   ├── Property.cs
+│   └── Sale.cs
+│
+├── Reports/
+│   ├── PropertyInfo.rpt
+│   └── RPTSalesInfo.rpt
+│
+├── Repositories/
+│
+├── RPTViewers/
+│   └── FrmRptViewer.cs
+│
+├── ViewModels/
+│
+├── Form1.cs
+├── Program.cs
 └── README.md
 
 
@@ -76,7 +92,7 @@ PropertySalesManagementSystem/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/PropertySalesManagementSystem.git
+   git clone (https://github.com/didar-code/ADO.Net-Project-with-C-.NET-WinForms-and-SQL-Server).git
 
    Open the solution
 
