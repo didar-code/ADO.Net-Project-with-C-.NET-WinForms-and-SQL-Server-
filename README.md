@@ -6,6 +6,7 @@ The system is designed to simplify property sales operations by managing client 
 ---
 
 ## 🚀 Key Features
+<img width="901" height="547" alt="Ado" src="https://github.com/user-attachments/assets/0067dde8-a0a6-493f-a914-a9095603298a" />
 
 - ✅ Add, update, and delete property sales records  
 - 👤 Manage client information (name, mobile number, address, etc.)  
@@ -24,6 +25,7 @@ The system is designed to simplify property sales operations by managing client 
 ---
 
 ## 🛠 Technology Stack
+<img width="1599" height="854" alt="Ado_report" src="https://github.com/user-attachments/assets/c7200ad8-28c7-407e-bbc1-ec78eef154db" />
 
 | Technology | Purpose |
 |-----------|---------|
@@ -49,8 +51,8 @@ The project follows a layered architecture:
 ---
 
 ## 📂 Project Structure
-
-```text id="9czvgk"
+<img width="1599" height="753" alt="Ado_code" src="https://github.com/user-attachments/assets/dd1cc842-f2c3-4706-b38c-de04a0103598" />
+---
 PropertySalesManagementSystem/
 │
 ├── DAL/
@@ -107,3 +109,17 @@ PropertySalesManagementSystem/
 6.Build & Run
 
 7.Press F5 to build and run the application
+## 📦 Run from ZIP File
+
+If you do not want to clone the repository, you can also download and run the project from a ZIP file.
+
+### Steps
+
+1. Click the **Code** button on GitHub.
+2. Select **Download ZIP**.
+3. Extract the ZIP file to your computer.
+4. Open the extracted folder.
+5. Double-click the solution file:
+
+```text
+1292886_PropertySales.sln
